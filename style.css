@@ -1,0 +1,165 @@
+body {
+
+font-family: Arial;
+margin: 0;
+background: #f4f6fb;
+
+}
+
+
+/* HEADER */
+
+header {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+padding: 20px;
+
+background: #6c63ff;
+color: white;
+
+}
+
+nav a {
+
+color: white;
+margin-left: 20px;
+text-decoration: none;
+font-weight: bold;
+
+}
+
+nav a:hover {
+
+text-decoration: underline;
+
+}
+
+
+/* HERO */
+
+.hero {
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+padding: 60px;
+
+background: linear-gradient(to right, #eef2ff, #ffffff);
+
+}
+
+.hero-text {
+
+max-width: 400px;
+
+}
+
+.hero h1 {
+
+font-size: 48px;
+color: #333;
+
+}
+
+.hero button {
+
+padding: 12px 25px;
+border: none;
+
+background: #6c63ff;
+color: white;
+
+font-size: 18px;
+
+border-radius: 8px;
+
+cursor: pointer;
+
+}
+
+.hero button:hover {
+
+background: #4d44d1;
+
+}
+
+
+/* FACTS */
+
+.facts {
+
+text-align: center;
+
+padding: 50px;
+
+}
+
+.cards {
+
+display: flex;
+
+justify-content: center;
+
+gap: 20px;
+
+flex-wrap: wrap;
+
+}
+
+.card {
+
+background: white;
+
+padding: 25px;
+
+width: 200px;
+
+border-radius: 15px;
+
+box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+/* ABOUT */
+
+.about {
+
+display: flex;
+
+justify-content: space-around;
+
+align-items: center;
+
+padding: 60px;
+
+}
+
+.gallery img {
+
+width: 150px;
+
+border-radius: 15px;
+
+margin: 10px;
+
+}
+
+
+/* FOOTER */
+
+footer {
+
+background: #6c63ff;
+
+color: white;
+
+text-align: center;
+
+padding: 20px;
+
+}
